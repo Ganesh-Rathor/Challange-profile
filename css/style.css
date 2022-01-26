@@ -1,0 +1,75 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+body{
+  margin: 0;
+  font-family: "Kumbh-Sans",sans-serif;
+  background-color: rgb(3, 160, 180);
+  background-image:url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
+  background-position:   top -500px left -400px, bottom -800px  right -300px;
+  background-repeat: no-repeat,no-repeat;
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container{
+  height: 60vh;
+  width: 50vh;
+  background-color: white;
+  margin-top: 20vh;
+  border-radius: 1rem;
+  background-image: url(bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position:top;
+  text-align: center;
+  flex-flow: column;
+  line-height: 0.7;
+}
+
+.image-vic{
+  position: static;
+  margin: 0;
+  margin-top: 85px;
+  padding-left: 17vh;
+}
+img{
+  border-radius: 100%;
+  border: 5px white solid;
+  display: block;
+}
+.heading{
+margin: 0;
+position: relative;
+top: 5px;
+
+
+}
+.review{
+  display: flex;
+  flex-flow:row;
+  margin:0;
+  position: relative;
+  left: 50px;
+  top:20px;
+
+}
+
+h3,h4{
+  color: hsl(229, 23%, 23%);
+}
+p{
+  color: hsl(0, 0%, 59%);
+}
+span{
+  color:hsl(227, 10%, 46%);
+}
+
+.view1{
+
+}
+.view2{
+  margin-left: 2rem;
+}
+.view3{
+  margin-left: 3rem;
+}
